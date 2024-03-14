@@ -1,0 +1,111 @@
+/****** Hebergements-Populaires ***********/
+
+.hebergements-populaires {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 550px;
+   
+    
+}
+
+.hebergements-section {
+    justify-content: space-around;
+    background-color: rgb(233, 233, 233);
+    border-radius: 20px;
+    width: 70%;
+    
+   
+    
+    
+}
+.hebergements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+    
+    border-radius: 20px;
+}
+
+.hebergements-cards {
+    background-color: white;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 200px;
+    margin: 20px 12px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.hebergements-title {
+   justify-content: center;
+   margin-left: 30px;
+    align-items: center;
+
+}
+
+.hebergements-cards .card {
+    display: flex;
+    margin-top: 33px;
+}
+
+.hebergements-img {
+    width: 100%;
+    height: 7rem;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    box-sizing: border-box;
+
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 67%;
+    padding-left: 15px;
+}
+
+.hebergements-cards {
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 5px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    width: 25%;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+
+}
+.card-title {
+    font-size: 16px;
+    margin: 0;
+}
+
+.plein-star {
+    color: #0065FC;
+}
+.neutral-star {
+    color: rgb(209, 209, 190);
+}
+
+#plus {
+    font-weight: bold;
+    margin-left: 40px;
+}

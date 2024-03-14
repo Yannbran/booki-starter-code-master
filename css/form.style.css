@@ -8,13 +8,15 @@ display: inline-flex;
     color: black;
     font-weight: 600;
     font-size: 18px;
-    border: 2px solid #f2f2f2;
+    border: 1px solid #f2f2f2;
     padding-left: 25px;
 }
 
 #recherche-button {
     display: flex;
     background-color: #0065fc;
+    color: white;
+    font-weight: bold;
     border: none;
     border-radius: 0 20px 20px 0;
     font-size: 18px;

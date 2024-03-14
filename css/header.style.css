@@ -14,22 +14,23 @@
 }
 
 .logo {
-    flex-basis: 60%;
-    margin: 0 50px;  
+    flex-basis: 80%;
+    margin: 0;  
 }
 
 .lien-hebergements {
-    flex-basis: 10%;
+    flex-basis: 12%;
 }
 
 .lien-activites {
-    flex-basis: 5%;
+    flex-basis: 4rem;
 }
 
 .headerNavLink {
     flex: end;
-    margin-left: 2rem;
+    margin-left: 1rem;
     padding: 0.3rem;
+    font-weight: 400;
 }
 
 .headerNavLink:hover {
