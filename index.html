@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/hebergements.style.css">
     <link rel="stylesheet" href="./css/header.style.css">
-</head>
+    <link rel="stylesheet" href="./css/form.style.css">
+    <link rel="stylesheet" href="./css/filters.style.css"
+</head> 
 
     <body>
 
@@ -26,67 +28,73 @@
                         <a href="index.html">
                         <img src="./images/logo/Booki.png" alt=" Logo Booki"/>
                         </a>
-                    </nav>
-                </div>
-            
+                    </nav>    
+                </div>    
                 <div class="lien-hebergements">
                     <nav>
-                    
                         <a class="headerNavLink headerNavLink:hover" href="#hebergements">Hébergements</a>
-                    
+                    </nav>    
+                </div>
+                <div class="lien-activites">
+                    <nav>
+                        <a class="headerNavLink headerNavLink:hover" href="#activites">Activités</a>
                     </nav>
                 </div>
-                    <div class="lien-activites">
-                        <nav>
-                        <a class="headerNavLink headerNavLink:hover" href="#activites">Activités</a>
-                        </nav>
-                    </div>
             </div>
         </header>
         
         <main class="main-container">
+            <section> 
+                <h1 class="title">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p class="#">En plein centre-ville ou en pleine nature</p>  
+    
+                <form class="recherche">
+                    <i class="fa-solid fa-location-dot" id="recherche-icon"></i>
+                    <input type="text" placeholder="Marseille, France" id="recherche-text" />
+                    <input type="submit" value="Rechercher" id="recherche-button">
+                </form>    
+                
+                <div class="filters">
+                    <ul>
+                        <li id="filters-title">Filtres</li>
+                            <li>
+                                <span class="icon-filters">
+                                    <i class="fas fa-money-bill-wave"></i>
+                                </span>    
+                                <p>Économique</p>    
+                            </li>   
+                        <li>
+                            <span class="icon-filters">
+                                <i class="fas fa-child"></i>
+                            </span>    
+                            <p>Familial</p>    
+                        </li>  
+                        <li>
+                            <span class="icon-filters">
+                                <i class="fas fa-heart"></i>
+                            </span>    
+                            <p>Romantique</p>    
+                        </li> 
+                        <li>
+                            <span class="icon-filters" >
+                                <i class="fas fa-fire"></i>
+                            </span>    
+                            <p>Nos pépites</p>    
+                        </li> 
+                    </ul>
+                </div>
 
-            <h2 class="#">Trouvez votre hébergement pour des vacances de rêve</h2>
-            <p class="#">En plein centre-ville ou en pleine nature</p>
+                <div class="information">
+                    <div class="icon-information">
+                        <i class="fas fa-info"></i>
+                    </div>
+                    <div>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                    </div>
+                </div>
+            </section>   
 
-            <section class="search-form"> 
-                <div class="search-form">
-                    <div class="icon-form">
-                        <i class="fas fa-map-marker-alt icon-form"></i>
-                    </div>
-                    <div class="#">
-                        <input type="search" placeholder="Marseille, France" size="auto" />
-                    </div>
-                    <div class="#">
-                        <button class="button-search">Rechercher</button>
-                        <i class="fas fa-search icon-form"></i>
-                    </div>   
-                </div>
-            </section>        
-            <div class="filters">
-                <h4>Filtres</h4>
-                <div class="filtreEco">
-                    <i class="fas fa-money-bill-wave searchFiltersFilterWrapiconIcon"></i>
-                    <span class="searchFiltersFilterTitle">Économique</span>
-                 </div>
-        
-                <div class="searchFiltersFilter">
-                    <i class="fas fa-child searchFiltersFilterWrapiconIcon"></i>
-                    <span class="searchFiltersFilterTitle">Familial</span>
-                </div>
-                <div class="searchFiltersFilter">
-                    <i class="fas fa-heart searchFiltersFilterWrapiconIcon"></i>
-                    <span class="searchFiltersFilterTitle">Romantique</span>
-                </div>
-                <div class="searchFiltersFilter">
-                    <i class="fa fa-fire searchFiltersFilterWrapiconIcon"></i>
-                    <span class="searchFiltersFilterTitle">Nos pépites</span>
-                </div>
-            </div>
-            <div class="searchResult">
-                <i class="fas fa-info searchResultWrapiconIcon"></i>
-                <span class="searchResultText">Plus de 500 logements sont disponibles dans cette ville</span>
-            </div>  
+
             <div class="hebergements">
                 <section class="#">
                     <div class="#">
