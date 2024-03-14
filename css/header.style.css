@@ -1,0 +1,42 @@
+/*****HEADER*****/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+    font-size: 20px; 
+    margin: 10px 50px;  
+}
+
+.logo {
+    flex-basis: 60%;
+    margin: 0 50px;
+}
+
+.lien-hebergements {
+    flex-basis: 10%;
+
+
+}
+
+.lien-activites {
+    display: flex;
+    
+}
+
+.headerNavLink {
+    flex: end;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+
+.headerNavLink:hover {
+    color: #0065FC;
+    border-top: 0.2rem solid #0065FC;
+
+}

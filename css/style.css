@@ -12,16 +12,19 @@
 .fa-solid {
     color: var(--main-color);
 }
-
+    
 body {
-    display: flex;
-    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+
+   
 }
 
 .main-container {
     width: 100%;
     max-width: 1440px;
+    margin: 0 50px;
     padding: 0 50px;
+    
     box-sizing: border-box;
 }
 
@@ -71,10 +74,6 @@ a {
     box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
-.hebergements {
-    width: 65%;
-}
 
 /****** Populaires ***********/
 .populaires {

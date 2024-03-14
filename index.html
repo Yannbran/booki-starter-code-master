@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booki</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,24 +13,38 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/hebergements.style.css">
+    <link rel="stylesheet" href="./css/header.style.css">
 </head>
 
-<body>
-    <div class="main-container">
+    <body>
+
         <header>
-            <div class="header">
-                <div>
-                    <img src="./images/logo/Booki.png" alt=" Logo Booki"/>
-                </div>   
-                <div>
+           <div class="header">
+                <div class="logo">
                     <nav>
-                        <a class="headerNavLink" href="#hostingMain" data-active="true">Hébergement</a>
-                        <a class="headerNavLink" href="#activity" data-active="true">Activités</a>
+                        <a href="index.html">
+                        <img src="./images/logo/Booki.png" alt=" Logo Booki"/>
+                        </a>
                     </nav>
                 </div>
+            
+                <div class="lien-hebergements">
+                    <nav>
+                    
+                        <a class="headerNavLink headerNavLink:hover" href="#hebergements">Hébergements</a>
+                    
+                    </nav>
+                </div>
+                    <div class="lien-activites">
+                        <nav>
+                        <a class="headerNavLink headerNavLink:hover" href="#activites">Activités</a>
+                        </nav>
+                    </div>
             </div>
         </header>
-        <main>
+        
+        <main class="main-container">
             <div class="title">
                 <h3 class="#">Trouvez votre hébergement pour des vacances de rêve</h3>
                 <p class="#">En plein centre-ville ou en pleine nature</p>
@@ -70,21 +85,21 @@
                 <i class="fas fa-info searchResultWrapiconIcon"></i>
                 <span class="searchResultText">Plus de 500 logements sont disponibles dans cette ville</span>
             </div>  
-            <div class="hebergements-and-populaires">
-                <section class="hebergements">
+            <div class="hebergements">
+                <section class="#">
                     <div class="#">
-                        <h2 class="#">Hébergements à Marseille</h2>
+                        <h2 class="hebergements-title">Hébergements à Marseille</h2>
                     </div> 
-                    <div class="#">
-                        <a href="#">
+                    <div class="hebergements-cards .card-content">
+                        <a href="hebergements-cards .card">
                             <article class="card">
-                                <img class="card img"  src="./images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant un lit"/>
+                                <img class="hebergements-cards img"  src="./images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant un lit"/>
                                 <div class="card-content>">
-                                    <div class="card-txt">  
+                                    <div class="hebergements-cards .card-title">  
                                         <h3 class="card-title">Hôtel du port</h3>
-                                        <p class="hostingMainCardDesc">Nuit à partir de 52<span class="euro">€</span></p>
+                                        <p class="hebergements-cards .card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
                                     </div>    
-                                    <div class="card-rating fa-solid">
+                                    <div class="hebergements-cards .card-rating">
                                         <i class="fas fa-star plein-star"></i>
                                         <i class="fas fa-star plein-star"></i>
                                         <i class="fas fa-star plein-star"></i>
@@ -98,7 +113,7 @@
                     <div class="#">
                         <a href="#">
                             <article class="card">
-                                <img class="card img" src="./images/hebergements/febrian-zakaria.jpg"/>
+                                <img class="hebergements-cards img" src="./images/hebergements/febrian-zakaria.jpg"/>
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel Chez Amina</h3>
