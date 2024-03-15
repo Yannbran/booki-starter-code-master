@@ -11,9 +11,10 @@
 
 .hebergements-section {
     justify-content: space-around;
+    flex-basis: 70%;
     background-color: rgb(233, 233, 233);
     border-radius: 20px;
-    width: 70%;
+    
     
    
     

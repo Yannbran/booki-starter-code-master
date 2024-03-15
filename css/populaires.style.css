@@ -1,11 +1,10 @@
-/****** Populaires ***********/
-.populaires {
-    width: 32%;
-}
+                                                    /****** Populaires ***********/
+
 
 .populaires-section {
+    display: flex;
     justify-content: space-around;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(233, 233, 233);
     border-radius: 20px;
     width: 32%;
 } 

@@ -2,25 +2,35 @@
 
 
 
-                                                            
+
 .header {
     display: flex;
     flex-direction: row;
     align-content: space-between;
-    font-size: 20px;  
+    font-weight: bold; 
+    font-size: 18px; 
 }
 
 .logo {
-    margin: 10px 40px;
-    flex-basis: 70%;
+    margin: 30px 40px;
+    flex-basis: 90%;
+}
+
+#booki {
+    width: 95px;
+    height: 30px;
+    object-fit: contain;
+   
 }
 
 .lien-hebergements {
    flex-basis: 20%;
+   margin-top: 8px;
 }
 
 .lien-activites {
-    flex-basis: 10%;  
+    flex-basis: 10%; 
+    margin-top: 8px;
 }
 
 .headerNavLink {

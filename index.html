@@ -26,7 +26,7 @@
             <div class="logo">
                 <nav>
                     <a href="index.html">
-                        <img src="./images/logo/Booki.png" alt=" Logo Booki" />
+                        <img src="./images/logo/Booki.png" alt=" Logo Booki" id="booki" />
                     </a>
                 </nav>
             </div>
@@ -44,54 +44,50 @@
     </header>
 
     <main class="main-container">
-        <section>
-            <h1 class="title">Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p class="#">En plein centre-ville ou en pleine nature</p>
+        <section class="recherche-filters">
+            <h1 class="recherche-title">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p class="recherche-text">En plein centre-ville ou en pleine nature</p>
 
             <form class="recherche">
                 <i class="fa-solid fa-location-dot" id="recherche-icon"></i>
-                <input type="text" placeholder="Marseille, France" id="recherche-text" />
-                <input type="submit" value="Rechercher" id="recherche-button">
+                <input type="text" placeholder="Marseille, France" size="17" id="placeholder">
+                <input type="submit" value="Rechercher" id="button">
             </form>
 
             <div class="filters">
-                <ul class="filters ul">
-                    <li id="filters-title">Filtres</li>
-                    <li class="filters-li">
+                <div class="filters ul">
+                    <div id="filters-title">Filtres</div>
+                    <div class="filters-li">
                         <span class="icon-filters">
                             <i class="fas fa-money-bill-wave"></i>
                         </span>
                         <p>Économique</p>
-                    </li>
-                    <li class="filters-li">
+                    </div>
+                    <div class="filters-li">
                         <span class="icon-filters">
                             <i class="fas fa-child"></i>
                         </span>
                         <p>Familial</p>
-                    </li>
-                    <li class="filters-li">
+                    </div>
+                    <div class="filters-li">
                         <span class="icon-filters">
                             <i class="fas fa-heart"></i>
                         </span>
                         <p>Romantique</p>
-                    </li>
-                    <li class="filters-li">
+                    </div>
+                    <div class="filters-li">
                         <span class="icon-filters">
                             <i class="fas fa-fire"></i>
                         </span>
                         <p>Nos pépites</p>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
 
-            <div class="information">
-                <div class="icon-information">
-                    <i class="fas fa-info"></i>
-                </div>
-                <div>
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
-                </div>
-            </div>
+            <i class="fas fa-info icon-information"></i>
+
+            <p class="information">Plus de 500 logements sont disponibles dans cette ville</p>
+
         </section>
 
 
@@ -106,7 +102,7 @@
                 <div class="hebergements">
 
                     <article class="hebergements-cards card">
-                        <img class="hebergements-img" src="./images/hebergements/fred-kleber.jpg"/>
+                        <img class="hebergements-img" src="./images/hebergements/fred-kleber.jpg" />
                         <h3 class="card-title">Hôtel du port</h3>
                         <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
                         <div class="fas solid card-rating">
@@ -210,21 +206,21 @@
                         <span class="sr-only">Note de 4 sur 5</span>
                     </div>
                 </article>
-            
+
                 <a href="#">
                     <article class="card">
                         <img src="./images/hebergements/aw-creative.jpg"
-                        alt="Image de la chambre d'hôtel montrant un lit">
+                            alt="Image de la chambre d'hôtel montrant un lit">
                         <h3 class="card-title">Chambres d’hôtes Au cœur de l’eau</h3>
                         <p class="card-subtitle">Nuit à partir de 71<span class="euro">€</span></p>
                         <div class="card-rating">
-                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
-                                <span class="sr-only">Note de 4 sur 5</span>
-                            </div>
+                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                            <span class="sr-only">Note de 4 sur 5</span>
+                        </div>
                         </div>
                     </article>
                 </a>
