@@ -1,29 +1,26 @@
-/*****HEADER*****/
+                                                            /*****HEADER*****/
 
+
+
+                                                            
 .header {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1440px;
-    font-size: 20px; 
-    margin-top: 8px;  
-    margin-left: 50px;
+    align-content: space-between;
+    font-size: 20px;  
 }
 
 .logo {
-    flex-basis: 80%;
-    margin: 0;  
+    margin: 10px 40px;
+    flex-basis: 70%;
 }
 
 .lien-hebergements {
-    flex-basis: 12%;
+   flex-basis: 20%;
 }
 
 .lien-activites {
-    flex-basis: 4rem;
+    flex-basis: 10%;  
 }
 
 .headerNavLink {
