@@ -1,19 +1,23 @@
 /****** General ***********/
+
+
+
 * {
     font-family: 'Raleway', sans-serif;
     
 }
 
 body {
+    
     max-width: 1440px;
     box-sizing: border-box;
-    margin: 0 40px ;
+    margin: 0 60px ;
 }
 
 .main-container {
     width: 100%;
     max-width: 1440px;
-    margin: 0 40px ;
+    margin: 0 ;
     
 }
 
@@ -22,34 +26,16 @@ a {
     text-decoration: none;
 }
 
-.section-title {
-    margin: 0;
-    font-size: 22px;
-}
-
-
-
-.card img {
-    object-fit: cover;
-}
-
-
-
-.euro {
-    font-weight: 700;
-}
-
-
-
-/****** Hebergements And Populaires ***********/
-
-
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
+
+
 /* Medium devices (tablets, less/equal than 1024px) */
+
+
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
