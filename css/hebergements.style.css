@@ -3,25 +3,20 @@
 
 
 
-.hebergements-and-populaires {
-    display: flex;
-    
-    margin-bottom: 50px;
-}
+
 
 .hebergements-section {
     background-color: #f2f2f2; 
-    padding: 0;
     border-radius: 30px;
     width: 70%;
     height: 730px;
+   
 }
 
 .hebergements {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0;   
 }
 
 .hebergements-article {
@@ -32,6 +27,7 @@
     border: none;
     border-radius: 20px;
     padding: 5px;
+    box-shadow: 1px 1px 17px -9px black;
 }
 
 .hebergements-article:hover {
@@ -59,15 +55,14 @@
 }
 
 .hebergements-article .card-rating{
-    margin-left: 10px;
-    margin-top: 10px;
+    margin: 10px;
 }
 
 .plein-star {
     color: #0065FC;
 }
 .neutral-star {
-    color: rgb(209, 209, 190);
+    color: #f2f2f2;
 }
 
 .section-title {
@@ -83,7 +78,6 @@
 .plus a {
     color: black;
     text-decoration: none;
-    font-weight: 600;
 }
 
 .euro {
