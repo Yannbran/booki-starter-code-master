@@ -4,44 +4,52 @@
 
                                                    
 .populaires-section {
-    background-color: rgb(233, 233, 233);
+    background-color: #f2f2f2;
     margin-left: 40px;
     border-radius: 30px;
     padding: 0 10px 0 25px;
     width: 30%;
+    height: 730px;
 } 
 
 .populaires-titre {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 30px;
-    font-size: 22px;
+    margin: 20px 10px;
+    
 }
 
-.populaires-titre-ico {
-    font-size: 22px;
+#populaires-icon {
+    font-size: 20px;
+    color: #0065FC;
 }
 
 .populaires-article {
     display: flex;
     justify-content: flex-start;
     background-color: white;
-    margin-bottom: 30px;
+    height: 160px;
+    margin: 15px 10px 40px 0;
     padding: 5px;
     border-radius: 20px;
 }
 
 .populaires-img {
     width: 200px;
-    height: 200px;
+    height: 160px;
     border-radius: 20px 0 0 20px;
 }
 
 .populaires-article h3 {
-    padding: 0 10px 0 10px;
+    margin: 5px 10px;
 }
 
 .populaires-article p {
-    padding: 0 10px 60px 10px;
+    margin: 5px 10px;
+}
+
+.populaires-article .card-rating {
+    margin-left: 10px;
+    margin-top: 60px;
 }

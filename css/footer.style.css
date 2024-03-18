@@ -4,7 +4,7 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    background-color: rgb(233, 233, 233);
+    background-color: #f2f2f2;
     width: 100%;
     margin-bottom: 10px;
     
@@ -40,4 +40,8 @@
     margin-top: 20px;
     font-size: 16px;
     font-weight: 500;
+}
+
+.footer-link:hover {
+    color: #0065FC;
 }
