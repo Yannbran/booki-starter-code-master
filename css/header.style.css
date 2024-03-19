@@ -13,12 +13,13 @@
 
 .logo {
     margin: 40px 0;
-    flex-basis: 90%;
+    flex-basis: 80%;
 }
 
 #booki {
-  
-    object-fit: contain;
+    width: 95.5px;
+    height: 30px;
+    object-fit: cover;
    
 }
 

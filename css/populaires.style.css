@@ -8,14 +8,15 @@
     margin-left: 40px;
     border-radius: 30px;
     width: 30%;
-    height: 730px;
+    height: 750px;
 } 
 
 .populaires-title {
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
-    margin: 20px 10px;
+    margin: 20px 20px;
     
 }
 
@@ -26,26 +27,26 @@
 
 .populaires-article {
     display: flex;
-    
+    flex-direction: row;
     justify-content: flex-start;
     background-color: white;
     height: 160px;
-    margin: 15px 10px 30px 10px ;
+    margin: 15px 20px 30px 20px ;
     padding: 5px;
     border-radius: 20px;
     box-shadow: 1px 1px 17px -9px black;
 }
 
 .populaires-container {
-    display: flex;
+   display: flex;
     flex-direction: column;
-    
 }
 
 .populaires-img {
     width: 150px;
     height: 160px;
     border-radius: 20px 0 0 20px;
+    object-fit: cover;
 }
 
 .populaires-article h3 {
