@@ -3,36 +3,34 @@
 
 
 .activity-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     width: 100%;
 }
 
-.activity {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    object-fit: cover;
-    margin-bottom: 50px;
-    width: 100%;
-    
-}
 
 .activity-article {
     
     background-color: white;
     margin: 20px 0;
     border-radius: 20px;
-    width: 22%;
-    height: 100%;
+    width: 33%;
+    height: auto;
+    margin: 20px 30px 50px 0;
     border-bottom: 1px solid rgb(194, 194, 194);
-    box-shadow: 1px 1px 17px -9px black;
+    box-shadow: 1px 1px 17px -7px black;
 }
+
+.activity-article:hover {
+    transform: scale(1.1);
+}
+
 
 .activity-article h3 {
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
-
-
 
 .activity-img {
     width: 100%;

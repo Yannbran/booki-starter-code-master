@@ -4,61 +4,69 @@
 
                                                    
 .populaires-section {
+    
     background-color: #f2f2f2;
     margin-left: 40px;
     border-radius: 30px;
     width: 30%;
-    height: 750px;
+    height: 740px;
+    
 } 
 
 .populaires-title {
     display: flex;
-    
     justify-content: space-between;
     align-items: center;
-    margin: 20px 20px;
+    margin: 10px 30px;
     
 }
 
 #populaires-icon {
     font-size: 20px;
     color: #0065FC;
+    
 }
 
 .populaires-article {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     background-color: white;
-    height: 160px;
-    margin: 15px 20px 30px 20px ;
+    height: 170px;
+    margin: 15px 30px 40px 30px ;
     padding: 5px;
     border-radius: 20px;
-    box-shadow: 1px 1px 17px -9px black;
+    box-shadow: 1px 1px 17px -7px black;
+    
+}
+
+.populaires-article:hover {
+    transform: scale(1.1);
 }
 
 .populaires-container {
-   display: flex;
-    flex-direction: column;
+    display: flex;
+    flex-direction: column;   
 }
 
 .populaires-img {
-    width: 150px;
-    height: 160px;
-    border-radius: 20px 0 0 20px;
     object-fit: cover;
+    width: 40%;
+    border-radius: 20px 0 0 20px;
+    
 }
 
 .populaires-article h3 {
-    flex: 1;
-    margin: 10px 0 0 10px;
+    
+    margin: 0;
 }
 
 .populaires-article p {
-    margin: 0 10px 40px 10px;
+    
+    margin: 0 ;
 }
 
 .populaires-article .card-rating {
+    
     margin-left: 10px;
     margin-top: 20px;
 }

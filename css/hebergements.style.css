@@ -9,7 +9,7 @@
     background-color: #f2f2f2; 
     border-radius: 30px;
     width: 70%;
-    height: 750px;
+    height: 740px;
    
 }
 
@@ -27,15 +27,15 @@
     border: none;
     border-radius: 20px;
     padding: 5px;
-    box-shadow: 1px 1px 17px -9px black;
+    box-shadow: 1px 1px 17px -7px black;
 }
 
 .hebergements-article:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
-.hebergements-titre {
-    margin: 40px 0 20px 40px;
+.hebergements-title {
+    margin: 30px 0 10px 30px;
 }
 
 .img-hebergements {

@@ -8,11 +8,8 @@
 }
 
 body {
-    
     max-width:  1440px;
-    
-    box-sizing: border-box;
-    margin: 0 20px 0 20px ;
+    margin: 0 20px 0 20px;
 }
 
 .main-container {
@@ -24,7 +21,7 @@ body {
 
 .hebergements-and-populaires {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 50px;
 }
 
