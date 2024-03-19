@@ -12,18 +12,19 @@ body {
     max-width:  1440px;
     
     box-sizing: border-box;
-    margin: 0 40px 0 40px;
+    margin: 0 40px 0 40px ;
 }
 
 .main-container {
     width: 100%;
     max-width: 1440px;
-    margin: 0 ;
+    
     
 }
 
 .hebergements-and-populaires {
     display: flex;
+    justify-content: center;
     margin-bottom: 50px;
 }
 
