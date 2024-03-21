@@ -45,7 +45,9 @@
 
 .populaires-container {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column; 
+    align-items: flex-start; 
+
 }
 
 .populaires-img {
@@ -57,16 +59,17 @@
 
 .populaires-article h3 {
     
-    margin: 0;
+    margin: 5px 0 0 10px;
 }
 
 .populaires-article p {
     
-    margin: 0 ;
+   margin: 5px 0 0 10px;
 }
 
 .populaires-article .card-rating {
-    
-    margin-left: 10px;
-    margin-top: 20px;
+    display: block;
+    align-content: flex-end;
+    margin: auto 10px 5px 10px;
+   
 }
