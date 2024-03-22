@@ -8,22 +8,15 @@
 }
 
 body {
+    align-content: center;
     max-width:  1440px;
-    margin: 0 20px 0 20px;
-}
-
-.main-container {
-    width: 100%;
-    max-width: 1440px;
-    margin-left: 10px;
-    
-    
+    margin: 0 auto 0 auto;
 }
 
 .hebergements-and-populaires {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 50px;
+   
 }
 
 a {

@@ -1,25 +1,34 @@
 /****Activity Section****/
 
+.activity {
 
+    margin: 0 20px 20px 20px;
+
+}
 
 .activity-container {
+
     display: flex;
+    justify-content: space-between;
+    align-content: center;
     flex-direction: row;
-    align-items: flex-start;
+    flex-wrap: wrap;
     width: 100%;
+    margin-bottom: 40px;
+
+
 }
 
 
 .activity-article {
-    object-fit: cover;
-    background-color: white;
-    margin: 20px 0;
+    width: 23%;
+    height: 500px;
+    border-bottom: 1px solid #cacaca;
     border-radius: 20px;
-    width: 33%;
-    height: 400px;
-    margin: 20px 30px 50px 30px;
-    border-bottom: 1px solid rgb(194, 194, 194);
     box-shadow: 1px 1px 17px -7px black;
+
+
+
 }
 
 .activity-article:hover {
@@ -28,18 +37,18 @@
 
 
 .activity-article h3 {
-    margin-left: 10px;
-
+    margin-left: 15px;
 }
 
 .activity-img {
+
     width: 100%;
-    height: 100%;
+    height: 87%;
     border-radius: 20px 20px 0 0;
-    
-    
+    object-fit: cover;
+
 }
 
 .activity-title {
-    margin: 20px;
+    margin: 10px 0 30px 10px;
 }
