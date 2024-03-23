@@ -3,19 +3,20 @@
 
 .recherche {
 display: inline-flex;
-margin: 30px 0 0 20px;
+margin-top: 20px;
 }
 
 
 .recherche-title {
     font-weight: bold;
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 0;
 }    
 
 .recherche-text {
     font-size: 18px;
     font-weight: 400;
-    margin: 10px 0 0 20px;  
+    margin-top: 10px;
+     
 }
 
 #placeholder {
