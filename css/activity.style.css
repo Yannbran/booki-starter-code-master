@@ -1,6 +1,9 @@
 /****Activity Section****/
 
 
+.activity {
+    margin: 50px 0 20px 0;
+}
 .activity-container {
 
     display: flex;
@@ -44,5 +47,12 @@
 }
 
 .activity-title {
-    margin: 10px 0 30px 20px;
+    margin: 10px 0 30px 30px;
+}
+
+
+@media (max-width: 1024px) {
+    .activity-article {
+        
+    }
 }
