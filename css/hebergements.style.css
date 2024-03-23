@@ -10,13 +10,14 @@
     border-radius: 20px;
     width: 70%;
     height: auto;
-    margin-left: 20px;
+    margin-left: 15px;
    
 }
 
 .hebergements {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-content: center;
     flex-wrap: wrap;
    
 }
@@ -24,7 +25,7 @@
 .hebergements-article {
     width: 28%;
     background-color: white;
-    margin: 20px 15px;
+    margin: 30px 5px 0 5px;
     border: none;
     border-radius: 20px;
     padding: 5px;
@@ -36,7 +37,7 @@
 }
 
 .hebergements-title {
-    margin: 30px 0 15px 30px;
+    margin: 30px 0 5px 30px;
 }
 
 .hebergements-img {
@@ -56,7 +57,9 @@
 }
 
 .hebergements-article .card-rating{
+    
     margin: 10px;
+   
 }
 
 .plein-star {
@@ -67,13 +70,13 @@
 }
 
 .section-title {
-    margin-left: 20px;
+    margin-left: 35px;
 }
 
 .plus {
     font-weight: bold;
     
-    margin: 20px 0 0 40px;
+    margin: 30px 0 30px 35px;
 }
 
 
