@@ -8,14 +8,15 @@
 }
 
 main {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
+
 
 body {
     align-content: center;
     max-width:  1440px;
-    margin: 0 auto;
+    margin: 0 auto ;
 }
 
 .hebergements-and-populaires {
@@ -31,6 +32,12 @@ a {
 }
 
 
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+
+/* Medium devices (tablets, less/equal than 1024px) */
+
 @media (max-width: 1024px) {
 
     .hebergements-and-populaires {
@@ -38,4 +45,9 @@ a {
         flex-direction: column;
     }
 
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+   
 }

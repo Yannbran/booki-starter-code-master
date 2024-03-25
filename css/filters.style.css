@@ -27,7 +27,7 @@
 .filters-li {
     display: flex;
     align-items: center;
-    margin-right: 15px;
+    margin-right: 20px;
     margin-bottom: 10px;
     border: 2px solid #f2f2f2;
     border-radius: 50px;
@@ -47,27 +47,53 @@
 }
 
 .filters p {
-    margin: 0 20px 0 10px;
+    margin: 0 20px 0 0;
 }
 
-.information {
-    display: inline-block;
+.information{
+    display: flex;
+    align-items: center;
+    
+}
+
+.information-text {
     margin: 20px 0;
     font-size: 18px;
     font-weight: 500;
 }
 
 .icon-information {
+    
     color: #0065fc;
     border: 1px solid #f2f2f2;
     border-radius: 50px;
     padding: 5px 10px;
-    margin: 0 10px 30px 0;
+    margin-right: 20px;
 }
+
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+
+/* Medium devices (tablets, less/equal than 1024px) */
 
 @media (max-width: 1024px) {
    
+    
+.filters {
+    margin-bottom: 10px;
+}
+
 #filters-title {
     width: 100%;
+}
+
+.icon-information {
+
+}
+
+.information {
+
 }
 }
