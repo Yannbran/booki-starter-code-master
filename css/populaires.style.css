@@ -95,3 +95,16 @@
         margin: 10px auto 40px 20px;
     }
     }
+
+    /****** Media queries ***********/
+
+/* Small devices (phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+
+    .populaires-article {
+        width: 85%;
+        
+    }
+
+}

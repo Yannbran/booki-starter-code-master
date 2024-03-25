@@ -61,6 +61,7 @@
 
     .header{
        flex-wrap: wrap;
+       margin-bottom: 40px;
     }
 
     .logo {
@@ -81,7 +82,7 @@
         color: #0065FC;
         border-bottom: 0.2rem solid #0065FC;
         border-top: none;
-    
+       
     }
 
     .headerNavLink {

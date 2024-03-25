@@ -101,4 +101,18 @@
     .hebergements-section {
         margin-bottom: 50px;
     }
+
+  
     }
+/****** Media queries ***********/
+
+/* Small devices (phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+
+    .hebergements-article {
+        width: 85%;
+        
+    }
+
+}
