@@ -21,6 +21,7 @@ body {
 .hebergements-and-populaires {
     display: flex;
     
+    
    
 }
 
@@ -31,7 +32,7 @@ a {
 
 
 @media (max-width: 1024px) {
-    
+
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column;

@@ -33,7 +33,7 @@
     flex-direction: row;
     background-color: white;
     height: 160px;
-    margin: 15px 30px 30px 30px ;
+    margin: 15px 25px 30px 25px ;
     padding: 5px;
     border-radius: 20px;
     box-shadow: 1px 1px 17px -7px black;
@@ -59,7 +59,7 @@
 }
 
 .populaires-article h3 {
-    
+   
     margin: 5px 0 0 10px;
 }
 

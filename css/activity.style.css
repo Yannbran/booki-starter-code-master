@@ -2,6 +2,7 @@
 
 
 .activity {
+    
     margin: 50px 0 20px 0;
 }
 .activity-container {
@@ -34,7 +35,7 @@
 
 
 .activity-article h3 {
-    margin: 10px 0 10px 10px;
+    margin: 15px 0 10px 20px;
 }
 
 .activity-img {
@@ -52,7 +53,15 @@
 
 
 @media (max-width: 1024px) {
-    .activity-article {
-        
+    .activity-img {
+       height: 80%;
+    }
+
+    .activity-article{
+        height: 300px;
+    }
+
+    .activity-article h3 {
+        margin: 5px 0 10px 20px;
     }
 }
