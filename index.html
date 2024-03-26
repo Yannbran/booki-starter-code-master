@@ -58,7 +58,7 @@
 
             <form class="recherche">
                 <i class="fa-solid fa-location-dot" id="recherche-icon"></i>
-                <input type="text" placeholder="Marseille, France" size="auto" id="placeholder">
+                <input type="text" placeholder="Marseille, France" id="placeholder">
                 <input type="submit" value="Rechercher" id="button">
                 <button type="submit" class="glass"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
@@ -93,13 +93,13 @@
                 </div>
             </div>
             <div class="information">
-            <i class="fas fa-info icon-information"></i>
+                <i class="fas fa-info icon-information"></i>
 
-            <p class="information-text">Plus de 500 logements sont disponibles dans cette ville</p>
+                <p class="information-text">Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </section>
 
-        <section class="hebergements-and-populaires">
+        <div class="hebergements-and-populaires">
 
             <section id="hebergement" class="hebergements-section">
                 <h2 class="hebergements-title">Hébergements à Marseille</h2>
@@ -128,7 +128,7 @@
                                 alt="Image de la chambre d'hôtel montrant un lit" class="hebergements-img">
                             <h3>Hôtel Chez Amina</h3>
                             <p>Nuit à partir de 96<span class="euro">€</span></p>
-                            <div class="fa-solid card-rating ">
+                            <div class="card-rating ">
                                 <i class="fas fa-star plein-star"></i>
                                 <i class="fas fa-star plein-star"></i>
                                 <i class="fas fa-star plein-star"></i>
@@ -215,18 +215,21 @@
             <!--Section populaires-->
 
             <section class="populaires-section">
-                <div class="populaires-title">
+                <div class="populaires-h2">
                     <h2>Les plus populaires</h2>
                     <span id="populaires-icon">
                         <i class="fas fa-chart-line"></i>
                     </span>
                 </div>
+                <div class="populaires">
                 <a href="#">
-                    <article class="populaires-article">
-
+                <article class="populaires-article">
+                    <div class="populaires-container">
+                        <div class="image-container">
                         <img src="./images/hebergements/emile-guillemot.jpg"
                             alt="Image de la chambre d'hôtel montrant un lit" class="populaires-img">
-                        <div class="populaires-container">
+                        </div>
+                        <div class="populaires-text">
                             <h3>Hôtel Le soleil du matin</h3>
                             <p>Nuit à partir de 128<span class="euro">€</span></p>
 
@@ -239,16 +242,18 @@
                                 <span class="sr-only">Note de 4 sur 5</span>
                             </div>
                         </div>
+                    </div>
+                </article>
+            </a>
 
-                    </article>
-                </a>
-
-                <a href="#">
-                    <article class="populaires-article">
-
+            <a href="#">
+                <article class="populaires-article">
+                    <div class="populaires-container">
+                    <div class="image-container">
                         <img src="./images/hebergements/aw-creative.jpg"
                             alt="Image de la chambre d'hôtel montrant un lit" class="populaires-img">
-                        <div class="populaires-container">
+                        </div>
+                            <div class="populaires-text">
                             <h3>Chambres d’hôtes Au cœur de l’eau</h3>
                             <p>Nuit à partir de 71<span class="euro">€</span></p>
                             <div class="card-rating">
@@ -260,16 +265,19 @@
                                 <span class="sr-only">Note de 4 sur 5</span>
                             </div>
                         </div>
+                    </div>
+                    
 
-
-                    </article>
-                </a>
-                <a href="#">
-                    <article class="populaires-article">
-
+                </article>
+            </a>
+            <a href="#">
+                <article class="populaires-article">
+                    <div class="populaires-container">
+                        <div class="image-container">
                         <img src="./images/hebergements/febrian-zakaria2.jpg"
                             alt="Image de la chambre d'hôtel montrant un lit" class="populaires-img">
-                        <div class="populaires-container">
+                        </div>
+                            <div class="populaires-text">
                             <h3>Hôtel Bleu et Blanc</h3>
                             <p>Nuit à partir de 68<span class="euro">€</span></p>
                             <div class="card-rating">
@@ -281,13 +289,12 @@
                                 <span class="sr-only">Note de 4 sur 5</span>
                             </div>
                         </div>
-                    </article>
-                </a>
-
-
-
+                    </div>
+                </article>
+            </a>
+            </div>
             </section>
-        </section>
+        </div>
 
         <!--Section Activity-->
 

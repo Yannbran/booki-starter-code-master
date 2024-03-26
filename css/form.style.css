@@ -67,7 +67,8 @@ margin-top: 30px;
 
     .recherche {
         justify-content: center;
-        margin: 30px 10px 0 10px;
+        margin-top: 30px;
+        width: 100%;
     }
 
     .recherche-title{

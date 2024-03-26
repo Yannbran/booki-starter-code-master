@@ -2,14 +2,12 @@
 
 
 .activity {
-
     margin: 70px 0 20px 0;
 }
 
 .activity-container {
-
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -18,7 +16,6 @@
 
 
 .activity-article {
-
     width: 23%;
     height: 500px;
     margin-left: 10px;
@@ -31,7 +28,6 @@
 .activity-article:hover {
     transform: scale(1.1);
 }
-
 
 .activity-article h3 {
     margin: 15px 0 10px 20px;
@@ -60,11 +56,12 @@
 
 @media (max-width: 1024px) {
     .activity-img {
-       height: 80%;
+       height: 75%;
     }
 
     .activity-article{
-        height: 350px;
+        height: 300px;
+        width: 22%;
     }
 
     .activity-article h3 {
@@ -80,7 +77,7 @@
 
     .activity-article {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         margin-left: 0;
         height: 250px;
     }
@@ -96,6 +93,10 @@
     .activity-img {
         height: 75%;
        
+     }
+
+     .activity-article h3 {
+        margin: 15px 20px;
      }
 
 }
