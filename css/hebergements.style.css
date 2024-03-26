@@ -8,17 +8,14 @@
 .hebergements-section {
     background-color: #f2f2f2; 
     border-radius: 20px;
-    height: auto;
-    
-   
+    height: auto;   
 }
 
 .hebergements {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-    flex-wrap: wrap;
-   
+    flex-wrap: wrap;  
 }
 
 .hebergements-article {
@@ -48,7 +45,6 @@
 
 .hebergements-article h3 {
     margin: 5px 10px;
-
 }
 
 .hebergements-article p {
@@ -56,13 +52,13 @@
 }
 
 .hebergements-article .card-rating{
-    
     margin: 10px;
    
 }
 
 .plein-star {
     color: #0065FC;
+
 }
 .neutral-star {
     color: #f2f2f2;
@@ -74,12 +70,8 @@
 
 .plus {
     font-weight: bold;
-    
     margin: 30px 0 30px 35px;
 }
-
-
-
 
 .plus:hover {
     color: #0065FC;
@@ -124,4 +116,7 @@
         margin: 30px 0 20px 10px;
     }
 
+    .plus {
+        margin: 0 0 30px 0 ;
+    }
 }

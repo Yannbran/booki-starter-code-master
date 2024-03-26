@@ -6,7 +6,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin-top: 30px;
+    margin: 40px 0 10px 0;
     font-size: 18px;
     font-weight: bolder;
     
@@ -20,14 +20,13 @@
 
 .filters-ul {
     display: flex;
-
-
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .filters-li {
     display: flex;
     align-items: center;
-    width: auto;
     margin-right: 15px;
     margin-bottom: 10px;
     border: 2px solid #f2f2f2;
@@ -54,7 +53,7 @@
 .information{
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .information-text {
@@ -87,12 +86,9 @@
 }
 
 #filters-title {
-   
+   flex-basis: 100%;
 }
 
-.icon-information {
-
-}
 
 .information {
 
@@ -106,14 +102,22 @@
 
 @media (max-width: 767.98px) {
 
-    .filters ul {
-       display: contents;
-        width: 45%;
-
+    .filters-ul {
+       justify-content: center;
+        
     } 
 
     .filters-li {
-        width: 40%;
+        width: 47%;
+        margin: 0 5px 10px 0;
     }
+
+    .icon-filters {
+        padding: 20px 15px ;
+       
     }    
-        
+
+    .filters p {
+        margin: 0;
+    }
+}    

@@ -2,21 +2,20 @@
 
 
 .recherche {
-display: inline-flex;
-margin-top: 20px;
+display: flex;
+margin-top: 30px;
 }
 
 
 .recherche-title {
     font-weight: bold;
-    margin: 20px 0 0 0;
+    margin: 30px 0 0 0;
 }    
 
 .recherche-text {
     font-size: 18px;
     font-weight: 400;
-    margin-top: 10px;
-     
+    margin-top: 10px;   
 }
 
 #placeholder {
@@ -24,7 +23,7 @@ margin-top: 20px;
     font-weight: 600;
     font-size: 18px;
     border: 1px solid #f2f2f2;
-    padding-left: 30px;   
+    padding-left: 20px;   
 }
 
 #placeholder::placeholder {
@@ -53,6 +52,10 @@ margin-top: 20px;
     font-size: 20px;
 }
 
+.glass {
+    display: none;
+}
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -61,8 +64,38 @@ margin-top: 20px;
 /* Small devices (phones, less than 768px) */
 
 @media (max-width: 767.98px){
-    #button{
-        
+
+    .recherche {
+        justify-content: center;
+        margin: 30px 10px 0 10px;
     }
 
+    .recherche-title{
+        margin: 0;
+    }
+
+    #button {
+        display: none;   
+    }  
+
+    .glass {
+        display: flex;
+        background-color: #0065fc;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 0 20px 20px 0;
+        font-size: 18px;
+        padding: 0 20px;
+        cursor: pointer;
+    }
+
+    .fa-solid {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 5px;
+        border-radius: 20px 0 0 20px;
+        font-size: 20px;
+    }
 }
