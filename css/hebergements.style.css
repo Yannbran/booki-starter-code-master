@@ -1,5 +1,5 @@
                                                     
-/****** Hebergements And Populaires ***********/
+/****** Hebergements ***********/
 
 
 
@@ -111,12 +111,17 @@
 @media (max-width: 767.98px) {
 
     .hebergements-article {
-        width: 85%;
-        
+        width: 100%;
+        margin: 0 0 20px 0;
     }
 
     .hebergements-section {
         background-color: transparent;
+        margin-bottom: 30px;
+    }
+
+    .hebergements-title {
+        margin: 30px 0 20px 10px;
     }
 
 }

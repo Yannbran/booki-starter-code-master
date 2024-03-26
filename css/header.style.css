@@ -61,13 +61,15 @@
 
     .header{
        flex-wrap: wrap;
-       margin-bottom: 40px;
+       margin: 0 0 40px 0;
+       width: 100%;
     }
 
     .logo {
       display: flex;
       justify-content: center;
-      margin: 50px auto 30px auto;
+      margin: 50px 0 30px 0;
+      width: 100%;
     }
 
 
