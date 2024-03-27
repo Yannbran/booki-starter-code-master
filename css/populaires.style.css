@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 10px 0 10px;
+    margin: 10px 10px 0 30px;
 }
 
 .populaires {
@@ -99,7 +99,7 @@
 
     .populaires-article {    
         display: inline-flex;
-        width: 29%;
+        width: 28%;
         margin: 0 0 10px 21px;
     }
 
@@ -116,6 +116,7 @@
 @media (max-width: 767.98px) {
 
     .populaires-article {
+        display: block;
         width: 90%;
         margin: 0 10px 20px 12px;    
     }
