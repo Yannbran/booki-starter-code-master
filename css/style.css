@@ -16,14 +16,12 @@ main {
 body {
     align-content: center;
     max-width:  1440px;
+    min-width: 320px;
     margin: 0 auto ;
 }
 
 .hebergements-and-populaires {
     display: flex;
-    
-    
-   
 }
 
 a {

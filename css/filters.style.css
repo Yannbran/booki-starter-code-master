@@ -63,7 +63,6 @@
 }
 
 .icon-information {
-    
     color: #0065fc;
     border: 1px solid #f2f2f2;
     border-radius: 50px;
@@ -88,13 +87,7 @@
 #filters-title {
    flex-basis: 100%;
 }
-
-
-.information {
-
 }
-}
-
 
 /****** Media queries ***********/
 

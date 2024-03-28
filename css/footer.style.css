@@ -10,13 +10,10 @@ footer{
     justify-content: space-between;
     background-color: #f2f2f2;
     width: 100%;
-
 }
 
 .footer-title {
-
     margin-bottom: 15px;
-
 }
 
 .footer-list {
@@ -25,21 +22,15 @@ footer{
     flex-wrap: wrap;
     margin-left: 20px;
     width: 30%;
-
 }
 
 .footer-nav {
-
     display: flex;
     flex-direction: column;
-
     flex-wrap: wrap;
-
-
 }
 
 .footer-link {
-
     margin-bottom: 10px;
     font-weight: 500;
 }
@@ -49,7 +40,7 @@ footer{
 }
 
 
-    /****** Media queries ***********/
+/****** Media queries ***********/
 
 /* Small devices (phones, less than 768px) */
 

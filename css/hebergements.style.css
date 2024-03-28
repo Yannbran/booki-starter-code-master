@@ -61,7 +61,7 @@
 
 }
 .neutral-star {
-    color: #f2f2f2;
+    color: #dbdbdb;
 }
 
 .section-title {
@@ -78,7 +78,7 @@
 }
 
 .euro {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 
@@ -93,8 +93,6 @@
     .hebergements-section {
         margin-bottom: 50px;
     }
-
-  
     }
 /****** Media queries ***********/
 
