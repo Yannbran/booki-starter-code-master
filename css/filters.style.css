@@ -113,11 +113,14 @@
     }
 
     .icon-filters {
-        padding: 20px 15px ;
-       
+        padding: 20px 15px ;   
     }    
 
     .filters p {
         margin: 0;
+    }
+
+    #filters-title {
+        margin: 0 20px 15px 10px;
     }
 }    
