@@ -81,7 +81,7 @@
    
     
 .filters {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 #filters-title {
@@ -102,11 +102,11 @@
 
     .filters-li {
         width: 47%;
-        margin: 0 5px 10px 0;
+        margin: 0 0.3125rem 0.625rem 0;
     }
 
     .icon-filters {
-        padding: 20px 15px ;   
+        padding: 1.25rem 0.9375rem ;   
     }    
 
     .filters p {
@@ -114,6 +114,6 @@
     }
 
     #filters-title {
-        margin: 0 20px 15px 10px;
+        margin: 0 1.25rem 0.9375rem 0.625rem;
     }
 }    

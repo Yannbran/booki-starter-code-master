@@ -59,12 +59,12 @@
     }
 
     .activity-article{
-        height: 300px;
+        height: 18.75rem;
         width: 22%;
     }
 
     .activity-article h3 {
-        margin: 5px 0 10px 20px;
+        margin: 0.3125rem 0 0.625rem 1.25rem;
     }
 }
 
@@ -76,9 +76,9 @@
 
     .activity-article {
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
         margin-left: 0;
-        height: 250px;
+        height: 15.625rem;
     }
 
     .activity {
@@ -94,7 +94,7 @@
      }
 
      .activity-article h3 {
-        margin: 15px 20px;
+        margin: 0.9375rem 1.25rem;
      }
 
 }

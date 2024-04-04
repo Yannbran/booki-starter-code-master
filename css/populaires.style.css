@@ -94,17 +94,17 @@
     .populaires-section {
         margin: 0;
         width: 100%; 
-        height: 270px;
+        height: 16.300rem;
     }
 
     .populaires-article {    
         display: inline-flex;
         width: 28%;
-        margin: 0 0 10px 21px;
+        margin: 0 0 0.625rem 1.750rem;
     }
 
     .populaires-h2 {
-        margin: 0 30px 0 25px;
+        margin: 0 1.875rem 0 1.5625rem;
     }
 
 }
@@ -119,7 +119,7 @@
     .populaires-article {
         display: block;
         width: 90%;
-        margin: 0 10px 20px 12px;    
+        margin: 0 0.625rem 1.25rem 12px;    
     }
 
     .populaires {
@@ -127,7 +127,7 @@
     }
 
     .populaires-title {
-        margin: 10px 20px 0 20px;
+        margin: 0.625rem 1.25rem 0 1.25rem;
     }
 
     .populaires-section {
