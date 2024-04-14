@@ -65,7 +65,13 @@
     .activity-article h3 {
         margin: 0.3125rem 0 0.625rem 1.25rem;
     }
+
+    .activity-container {
+        flex-wrap: wrap;
+    }
+    
 }
+
 
     /****** Media queries ***********/
 
@@ -96,4 +102,8 @@
         margin: 0.9375rem 1.25rem;
      }
 
+     .activity-container {
+        flex-wrap: wrap;
+    }
+    
 }
