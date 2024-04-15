@@ -51,4 +51,12 @@ a {
     .hebergements-and-populaires {
         flex-direction: column-reverse;
     }
+
+    main {
+        margin: 0;
+    }
+
+    #form-recherche {
+        margin: 0 20px;
+    }
 }

@@ -81,17 +81,16 @@
 
     .activity-article {
         width: 100%;
-        margin-bottom: 1.875rem;
-        margin-left: 0;
-        height: 15.625rem;
+        height: 285px;
+        margin: 0.5rem 0 0.5rem 0;
     }
 
     .activity {
-       margin: 0;
+        margin: 0 1.5rem;
     }
 
     .activity-title {
-        margin: 0;
+        margin: 2rem 0 2rem 1rem;
     }
 
     .activity-img {
@@ -99,7 +98,7 @@
      }
 
      .activity-article h3 {
-        margin: 0.9375rem 1.25rem;
+        margin: 1.25rem;
      }
 
      .activity-container {

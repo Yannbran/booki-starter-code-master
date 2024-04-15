@@ -101,8 +101,8 @@
 @media (max-width: 767.98px) {
 
     .hebergements-article {
-        width: 100%;
-        margin: 0 0 1.875rem 0;
+        width: 85%;
+        margin: 0.625rem auto;
     }
 
     .hebergements-section {
@@ -111,10 +111,11 @@
     }
 
     .hebergements-title {
-        margin: 2.5rem 0 1.25rem 0;
+        
     }
 
     .plus {
-        margin: 0 0 1.875rem 0 ;
+        margin: 0.5rem 1.7rem;
+        font-size: larger;
     }
 }

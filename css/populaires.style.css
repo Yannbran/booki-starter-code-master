@@ -54,7 +54,7 @@
 .populaires-text {
     display: flex;
     flex-direction: column;
-   width: 70%;
+   width: 77%;
 }
 
 .populaires-img {
@@ -99,7 +99,7 @@
 
     .populaires-article {    
         display: inline-flex;
-        width: 27.5%;
+        width: 27%;
         margin: 0 0 0.625rem 1.750rem;
     }
 
@@ -118,8 +118,8 @@
 
     .populaires-article {
         display: block;
-        width: 90%;
-        margin: 0 0.625rem 1.25rem 12px;    
+        width: 85%;   
+        margin: 0 auto 1rem auto;
     }
 
     .populaires {
@@ -132,6 +132,7 @@
 
     .populaires-section {
         width: 100%;
-        height: auto;
+        height: 650px;
+        border-radius: 0;
     }
 }
