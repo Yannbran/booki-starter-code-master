@@ -5,9 +5,7 @@
     <img src="booki_screen.webp" alt="Screen du Projet" width="500">
   </p>
   
-  <p align="center" style="font-size: 22px;">
-   Descrition du projet :
-  </p>
+ <h1 align="center">Description du projet :</h1>
 <p>
   Dans ce projet, j'ai dû créer la page d’accueil d’une agence de voyage en utilisant HTML5 et CSS3. <br>
 L’objectif principal était d’intégrer une interface responsive basée sur des maquettes Figma pour mobile, tablette et desktop.
