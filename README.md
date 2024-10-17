@@ -5,7 +5,7 @@
     <img src="booki_screen.webp" alt="Screen du Projet" width="500">
   </p>
   
-  <p align="center" style="font-size: 3vw;">
+  <p align="center" style="font-size: 22px;">
     Descrition du projet :
   </p>
 <p>
