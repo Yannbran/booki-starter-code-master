@@ -11,4 +11,5 @@
 L’objectif principal était d’intégrer une interface responsive basée sur des maquettes Figma pour mobile, tablette et desktop.
 </p>
 <h2 align="center">Lien du projet :</h2>
-https://yannbran.github.io/booki-starter-code-master/
+<p align="center">https://yannbran.github.io/booki-starter-code-master/</p>
+
