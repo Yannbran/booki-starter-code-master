@@ -6,7 +6,7 @@
   </p>
   
   <p align="center" style="font-size: 22px;">
-    Descrition du projet :
+   ## Descrition du projet :
   </p>
 <p>
   Dans ce projet, j'ai dû créer la page d’accueil d’une agence de voyage en utilisant HTML5 et CSS3.
